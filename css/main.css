@@ -4,7 +4,21 @@
    Author's custom styles
    ========================================================================== */
 
+.navbar-inverse {
+    background-color: #1D6289;
+    border-color: #1D6289;
+}
 
+.navbar-inverse .navbar-nav>li>a {
+    color: #D67231;
+}
+
+
+/* THE FOLLOWING CODE MUST BE REMOVED, TEMPORARY! */
+
+.jumbotron {
+    height: 700px;
+}
 
 
 
