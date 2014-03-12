@@ -2,24 +2,95 @@
 
 /* ==========================================================================
    Author's custom styles
+   Brand Color: #1D6289 (blue)
+   Brand Color #2: #D67231 (orange)
    ========================================================================== */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100%;
+    padding-top: 50px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
 
 .navbar-inverse {
     background-color: #1D6289;
     border-color: #1D6289;
 }
 
+.navbar-inverse .navbar-brand {
+    color: #D67231;
+}
+
 .navbar-inverse .navbar-nav>li>a {
     color: #D67231;
 }
 
-
-/* THE FOLLOWING CODE MUST BE REMOVED, TEMPORARY! */
-
 .jumbotron {
-    height: 700px;
+    height: 100%;
+    margin-bottom: 0;
+    padding: 0;
 }
 
+.jumbotron h1 {
+    color: white;
+    padding-top: 300px;
+    font-size: 100px;
+    font-weight: 200;
+}
+
+#home {
+    background-color: #1D6289;
+}
+
+.jumbotron>.container {
+    min-height: 100%;
+    position: relative;
+}
+
+.line {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 4px;
+    height: 90%;
+    background-color: #D67231;
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+}
+
+.line1 {
+    left: 10%;
+}
+
+.line2 {
+    left: 15%;
+}
+
+.line3 {
+    left: 20%;
+}
+
+.line4 {
+    left: 25%;
+}
+
+.line5 {
+    left: 30%;
+}
 
 
 
