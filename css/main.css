@@ -18,6 +18,7 @@ body {
 
 .navbar {
     margin-bottom: 0;
+    height: 50px;
 }
 
 .navbar-inverse {
@@ -36,23 +37,19 @@ body {
 .jumbotron {
     height: 100%;
     margin-bottom: 0;
-    padding: 0;
 }
 
 .jumbotron h1 {
     color: white;
-    padding-top: 300px;
-    font-size: 100px;
-    font-weight: 200;
-}
-
-#home {
-    background-color: #1D6289;
 }
 
 .jumbotron>.container {
     min-height: 100%;
     position: relative;
+}
+
+#home {
+    background-color: #1D6289;
 }
 
 .line {
