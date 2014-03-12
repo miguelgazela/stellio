@@ -34,9 +34,12 @@ body {
     color: #D67231;
 }
 
+.wrapper {
+    height: 100%;
+}
+
 .jumbotron {
     height: 100%;
-    margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -52,6 +55,28 @@ body {
     background-color: #1D6289;
 }
 
+#home .jumbotron {
+    padding: 0;
+}
+
+#home h1 {
+    font-size: 100px;
+    font-weight: 200;
+    line-height: 400px;
+}
+
+#about {
+
+}
+
+#team {
+
+}
+
+#projects {
+
+}
+
 .line {
     display: block;
     position: absolute;
@@ -59,14 +84,14 @@ body {
     width: 4px;
     height: 90%;
     background-color: #D67231;
-    -webkit-transform: rotate(45deg);
+    /*-webkit-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
     -webkit-transform-origin: 0% 100%;
     -moz-transform-origin: 0% 100%;
     -ms-transform-origin: 0% 100%;
     -o-transform-origin: 0% 100%;
-    transform-origin: 0% 100%;
+    transform-origin: 0% 100%;*/
 }
 
 .line1 {
