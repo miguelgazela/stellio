@@ -88,6 +88,7 @@ header {
    /*background: url(../images/k-opacity-70.png);*/
    background-color: #006699;
    position: fixed;
+   opacity: 0.9;
    top: 0;
    left: 0;
 }
@@ -503,6 +504,33 @@ ul#nav li.active a { color: #1D6289; }
 #journal .entry .post-content a.more-link i {
    margin-left: 10px;
    font-size: 14px;
+}
+
+/* ================================================================== */
+
+/* f. Home
+
+/* ================================================================== */
+
+#home {
+   background-color: #006699;
+   padding-top: 156px;
+   color: white;
+   position: relative;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+#home>img {
+   position: absolute;
+   width: 40%;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
+   -ms-transform: translateY(-50%) translateX(-50%);
+   transform: translateY(-50%) translateX(-50%);
 }
 
 
