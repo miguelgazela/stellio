@@ -533,6 +533,51 @@ ul#nav li.active a { color: #1D6289; }
 #about .team-wrap { margin-bottom: 24px; }
 #about .team-wrap .col { margin-bottom: 24px; text-align: center;}
 
+.team-wrap .image {
+   display: inline-block;
+   zoom: 1;
+   vertical-align: middle;
+   width: 80%;
+   height: 173px;
+   background-image: url("../images/team/teamsprite.png");
+   background-repeat: no-repeat;
+   border-radius: 50%;
+   background-size: auto 600%;
+}
+
+.team-wrap .adriana {
+   background-position: 0% 0;
+}
+
+.team-wrap .adriana:hover {
+   background-position: 11% 0;
+}
+
+.team-wrap .garcez {
+   background-position: 0% 20%;
+}
+
+.team-wrap .garcez:hover {
+   background-position: 11% 20%;
+}
+
+.team-wrap .ana_gomes {
+   background-position: 22.2222% 0%;
+}
+
+.team-wrap .ana_gomes:hover {
+   background-position: 33.3333% 0%;
+}
+
+.team-wrap .diogo {
+   background-position: 44.4444% 20%;
+}
+
+.team-wrap .diogo:hover {
+   background-position: 55.5555% 20%;
+}
+
+
 /* process */
 #about .process-wrap h4 {
    font: 15px/24px montserrat-bold, sans-serif;
