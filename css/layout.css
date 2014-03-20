@@ -514,7 +514,7 @@ ul#nav li.active a { color: #1D6289; }
 #about {
    /*background: #fff url(../images/patterns/grey.png);*/
    background-color: #006699;
-   padding-top: 156px;
+   padding-top: 70px;
    padding-bottom: 144px;
    color: white;
 }
@@ -529,16 +529,25 @@ ul#nav li.active a { color: #1D6289; }
    color: #6E6E6E;
 }
 
+#about .section-head h2 {
+   text-align: center;
+   padding-bottom: 70px;
+}
+
 #about .process-wrap .col { width: 25%; }
 #about .team-wrap { margin-bottom: 24px; }
 #about .team-wrap .col { margin-bottom: 24px; text-align: center;}
+
+.team-wrap h5 {
+   margin-top: 5px;
+}
 
 .team-wrap .image {
    display: inline-block;
    zoom: 1;
    vertical-align: middle;
    width: 80%;
-   height: 173px;
+   padding: 41% 0%;
    background-image: url("../images/team/teamsprite.png");
    background-repeat: no-repeat;
    border-radius: 50%;
@@ -558,7 +567,7 @@ ul#nav li.active a { color: #1D6289; }
 }
 
 .team-wrap .garcez:hover {
-   background-position: 11% 20%;
+   background-position: 11.1111% 20%;
 }
 
 .team-wrap .ana_gomes {
@@ -575,6 +584,198 @@ ul#nav li.active a { color: #1D6289; }
 
 .team-wrap .diogo:hover {
    background-position: 55.5555% 20%;
+}
+
+.team-wrap .ana_santos {
+   background-position: 44.4444% 0%;
+}
+
+.team-wrap .ana_santos:hover {
+   background-position: 55.5555% 0%;
+}
+
+.team-wrap .andre_b {
+   background-position: 66.6666% 0%;
+}
+
+.team-wrap .andre_b:hover {
+   background-position: 77.7777% 0%;
+}
+
+.team-wrap .andre_f {
+   background-position: 88.8888% 0%;
+}
+
+.team-wrap .andre_f:hover {
+   background-position: 99.9999% 0%;
+}
+
+.team-wrap .barbara {
+   background-position: 22.2222% 20%;
+}
+
+.team-wrap .barbara:hover {
+   background-position: 33.3333% 20%;
+}
+
+.team-wrap .fernando {
+   background-position: 66.6666% 20%;
+}
+
+.team-wrap .fernando:hover {
+   background-position: 77.7777% 20%;
+}
+
+.team-wrap .fred {
+   background-position: 88.8888% 20%;
+}
+
+.team-wrap .fred:hover {
+   background-position: 99.9999% 20%;
+}
+
+.team-wrap .henrique {
+   background-position: 0% 40%;
+}
+
+.team-wrap .henrique:hover {
+   background-position: 11.1111% 40%;
+}
+
+.team-wrap .joao {
+   background-position: 22.2222% 40%;
+}
+
+.team-wrap .joao:hover {
+   background-position: 33.3333% 40%;
+}
+
+.team-wrap .jorge {
+   background-position: 44.4444% 40%;
+}
+
+.team-wrap .jorge:hover {
+   background-position: 55.5555% 40%;
+}
+
+.team-wrap .maarit {
+   background-position: 66.6666% 40%;
+}
+
+.team-wrap .maarit:hover {
+   background-position: 77.7777% 40%;
+}
+
+.team-wrap .manuel {
+   background-position: 88.8888% 40%;
+}
+
+.team-wrap .manuel:hover {
+   background-position: 99.9999% 40%;
+}
+
+.team-wrap .maria_j {
+   background-position: 0% 60%;
+}
+
+.team-wrap .maria_j:hover {
+   background-position: 11.1111% 60%;
+}
+
+.team-wrap .maria_m {
+   background-position: 22.2222% 60%;
+}
+
+.team-wrap .maria_m:hover {
+   background-position: 33.3333% 60%;
+}
+
+.team-wrap .mario {
+   background-position: 44.4444% 60%;
+}
+
+.team-wrap .mario:hover {
+   background-position: 55.5555% 60%;
+}
+
+.team-wrap .marisa {
+   background-position: 66.6666% 60%;
+}
+
+.team-wrap .marisa:hover {
+   background-position: 77.7777% 60%;
+}
+
+.team-wrap .miguel {
+   background-position: 88.8888% 60%;
+}
+
+.team-wrap .miguel:hover {
+   background-position: 99.9999% 60%;
+}
+
+.team-wrap .nuno_g {
+   background-position: 0% 80%;
+}
+
+.team-wrap .nuno_g:hover {
+   background-position: 11.1111% 80%;
+}
+
+.team-wrap .nuno_m {
+   background-position: 22.2222% 80%;
+}
+
+.team-wrap .nuno_m:hover {
+   background-position: 33.3333% 80%;
+}
+
+.team-wrap .ricardo {
+   background-position: 44.4444% 80%;
+}
+
+.team-wrap .ricardo:hover {
+   background-position: 55.5555% 80%;
+}
+
+.team-wrap .rui {
+   background-position: 66.6666% 80%;
+}
+
+.team-wrap .rui:hover {
+   background-position: 77.7777% 80%;
+}
+
+.team-wrap .ricardo_t {
+   background-position: 88.8888% 80%;
+}
+
+.team-wrap .ricardo_t:hover {
+   background-position: 99.9999% 80%;
+}
+
+.team-wrap .maranhao {
+   background-position: 0% 100%;
+}
+
+.team-wrap .maranhao:hover {
+   background-position: 11.1111% 100%;
+}
+
+.team-wrap .teresa {
+   background-position: 22.2222% 100%;
+}
+
+.team-wrap .teresa:hover {
+   background-position: 33.3333% 100%;
+}
+
+.team-wrap .vitor {
+   background-position: 44.4444% 100%;
+}
+
+.team-wrap .vitor:hover {
+   background-position: 55.5555% 100%;
 }
 
 
