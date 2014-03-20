@@ -438,8 +438,12 @@ dd { margin: 0 0 0 20px; }
 /*  5. Images  --------------------------------------------------------- */
 
 img {
-   max-width: 100%;
+   max-width: 80%;
    height: auto;
+}
+
+.team-wrap img {
+   border-radius: 50%;
 }
 
 img.pull-right { margin: 12px 0px 0px 18px; }

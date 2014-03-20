@@ -85,8 +85,8 @@ header {
    height: 54px;
    width: 100%;
    z-index: 99999;
-   background: url(../images/k-opacity-70.png);
-
+   /*background: url(../images/k-opacity-70.png);*/
+   background-color: #006699;
    position: fixed;
    top: 0;
    left: 0;
@@ -271,7 +271,8 @@ ul#nav li.active a { color: #1D6289; }
 /* ================================================================== */
 
 #services {
-   background: #1b1e21 url(../images/patterns/servicesbg.png);
+   /*background: #1b1e21 url(../images/patterns/servicesbg.png);*/
+   background-color: #fff;
    padding-top: 156px;
    padding-bottom: 120px;
    color: #4E565F;
@@ -421,7 +422,8 @@ ul#nav li.active a { color: #1D6289; }
 
 /* ================================================================== */
 #project1, #project2, #project3, #project4{
-   background: #1b1e21 url(../images/patterns/servicesbg.png);
+   /*background: #1b1e21 url(../images/patterns/servicesbg.png);*/
+   background-color: #1E1E1E;
    padding-top: 156px;
    padding-bottom: 120px;
    color: #4E565F;
@@ -434,18 +436,18 @@ ul#nav li.active a { color: #1D6289; }
 /* ================================================================== */
 
 #journal {
-   background-color: #1D6289;
+   background-color: white;
    padding-top: 156px;
-   padding-bottom: 120px;
-   color: #7fe6ed;
+   padding-bottom: 156px;
+   color: #006699;
 }
 
 #journal a, #journal a:visited  { color: #fff; }
 #journal a:hover, #journal a:focus { color: #005757; }
 
-#journal .section-head h2 { color: #fff; }
+#journal .section-head h2 { color: #006699; }
 #journal .section-head p.desc,
-#journal .section-head .intro { color: #C2F1F5; }
+#journal .section-head .intro { color: #006699; }
 
 #journal .blog-entries { margin-top: 54px; }
 #journal .entry { margin-bottom: 12px; }
@@ -510,13 +512,14 @@ ul#nav li.active a { color: #1D6289; }
 
 /* ================================================================== */
 #about {
-   background: #fff url(../images/patterns/grey.png);
+   /*background: #fff url(../images/patterns/grey.png);*/
+   background-color: #006699;
    padding-top: 156px;
    padding-bottom: 144px;
-   color: #A3A3A3;
+   color: white;
 }
 #about .section-head h2,
-#about h4, #about h5 { color: #1D6289; }
+#about h4, #about h5 { color: white; }
 #about .section-head p.desc { color: #999999; }
 #about .section-head .intro { color: #A3A3A3; }
 #about h3 {
@@ -528,7 +531,7 @@ ul#nav li.active a { color: #1D6289; }
 
 #about .process-wrap .col { width: 25%; }
 #about .team-wrap { margin-bottom: 24px; }
-#about .team-wrap .col { margin-bottom: 24px; }
+#about .team-wrap .col { margin-bottom: 24px; text-align: center;}
 
 /* process */
 #about .process-wrap h4 {
@@ -546,21 +549,22 @@ ul#nav li.active a { color: #1D6289; }
    top: -6px;
    font-size: 13px;
    line-height: 18px;
-   color: #969696;
+   color: #EE7800;
 }
 #about .team-wrap .member-social {
    font-size: 14px;
    font-weight: normal;
    line-height: 18px;
-   color: #969696;
+   color: white;
    margin: 0;
    padding: 0;
+   text-align: center;
 }
 #about .team-wrap .member-social li {
    display: inline-block;
    margin-right: 15px;
 }
-#about .team-wrap .member-social li a { color: #8C8C8C; }
+#about .team-wrap .member-social li a { color: #f5f5f5; }
 #about .team-wrap .member-social li a:hover { color: #1D6289; }
 
 
@@ -582,7 +586,7 @@ ul#nav li.active a { color: #1D6289; }
 }
 .testimonials .client-author .name {
    font: 14px/24px montserrat-bold, sans-serif;
-   color: #1D6289;
+   color: white;
 
    position: absolute;
    top: 6px;
@@ -592,34 +596,12 @@ ul#nav li.active a { color: #1D6289; }
    font-family: opensans-regular, sans-serif;
    line-height: 18px;
    font-size: 13px;
-   color: #969696;
+   color: #EE7800;
    display: block;
 }
 .testimonials .client-cite {
    font: 18px/36px opensans-light, sans-serif;
 }
-
-
-/* ================================================================== */
-
-/* h. Map
-
-/* ================================================================== */
-
-#map {
-   display: block;
-	height: 486px;
-   width: 100%;
-   background-color: #F6F4EF;
-}
-#map img { max-width:inherit !important; }
-#map .map-error {
-  text-align: center;
-  padding-top: 48px;
-  color: #C0B491;
-  font-size: 14px;
-}
-
 
 /* ================================================================== */
 
