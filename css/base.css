@@ -135,6 +135,11 @@ table {
    box-sizing: border-box;
 }
 
+html, body {
+   height: 100%;
+   margin: 0;
+}
+
 body {
    background: #151719 url(../images/bg.png);
 	font: 15px/30px opensans-regular, sans-serif;

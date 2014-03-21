@@ -509,6 +509,33 @@ ul#nav li.active a { color: #EE7800; }
    font-size: 14px;
 }
 
+/* ================================================================== */
+
+/* f. Home
+
+/* ================================================================== */
+
+#home {
+   background-color: #006699;
+   padding-top: 156px;
+   color: white;
+   position: relative;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+#home>img {
+   position: absolute;
+   width: 40%;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
+   -ms-transform: translateY(-50%) translateX(-50%);
+   transform: translateY(-50%) translateX(-50%);
+}
+
 
 /* ================================================================== */
 
