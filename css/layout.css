@@ -574,8 +574,8 @@ ul#nav li.active a { color: #1D6289; }
    display: inline-block;
    zoom: 1;
    vertical-align: middle;
-   width: 80%;
-   padding: 41% 0%;
+   width: 173px;
+   height: 173px;
    background-image: url("../images/team/teamsprite.png");
    background-repeat: no-repeat;
    border-radius: 50%;
