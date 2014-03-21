@@ -135,12 +135,18 @@ table {
    box-sizing: border-box;
 }
 
+html, body {
+   height: 100%;
+   margin: 0;
+}
+
 body {
-   background: #151719 url(../images/bg.png);
+   background: #006699;
 	font: 15px/30px opensans-regular, sans-serif;
 	color: #838C95;
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
+    min-height: 100%;
 }
 
 /*  2. Typography
@@ -754,7 +760,4 @@ col.collapsed { padding: 0; }
 .pull-right   { float: right; }
 
 
-.img_stellio
-{
-   max-width: 70%;
-}
+

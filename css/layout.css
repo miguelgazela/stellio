@@ -88,6 +88,7 @@ header {
    /*background: url(../images/k-opacity-70.png);*/
    background-color: #006699;
    position: fixed;
+   opacity: 0.9;
    top: 0;
    left: 0;
 }
@@ -183,8 +184,7 @@ ul#nav li.active a { color: #1D6289; }
 /* ================================================================== */
 
 #intro {
-   background: #111 url(../images/fundo_home02.jpg) no-repeat center;
-   background-size: 100% 100%;
+   background: #111 url(../images/intro-bg.jpg) no-repeat center;
    overflow: hidden;
 }
 
@@ -506,6 +506,33 @@ ul#nav li.active a { color: #1D6289; }
    font-size: 14px;
 }
 
+/* ================================================================== */
+
+/* f. Home
+
+/* ================================================================== */
+
+#home {
+   background-color: #006699;
+   padding-top: 156px;
+   color: white;
+   position: relative;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+#home>img {
+   position: absolute;
+   width: 40%;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
+   -ms-transform: translateY(-50%) translateX(-50%);
+   transform: translateY(-50%) translateX(-50%);
+}
+
 
 /* ================================================================== */
 
@@ -515,7 +542,7 @@ ul#nav li.active a { color: #1D6289; }
 #about {
    /*background: #fff url(../images/patterns/grey.png);*/
    background-color: #006699;
-   padding-top: 156px;
+   padding-top: 70px;
    padding-bottom: 144px;
    color: white;
 }
@@ -530,9 +557,255 @@ ul#nav li.active a { color: #1D6289; }
    color: #6E6E6E;
 }
 
+#about .section-head h2 {
+   text-align: center;
+   padding-bottom: 70px;
+}
+
 #about .process-wrap .col { width: 25%; }
 #about .team-wrap { margin-bottom: 24px; }
 #about .team-wrap .col { margin-bottom: 24px; text-align: center;}
+
+.team-wrap h5 {
+   margin-top: 5px;
+}
+
+.team-wrap .image {
+   display: inline-block;
+   zoom: 1;
+   vertical-align: middle;
+   width: 173px;
+   height: 173px;
+   background-image: url("../images/team/teamsprite.png");
+   background-repeat: no-repeat;
+   border-radius: 50%;
+   background-size: auto 600%;
+}
+
+.team-wrap .adriana {
+   background-position: 0% 0;
+}
+
+.team-wrap .adriana:hover {
+   background-position: 11% 0;
+}
+
+.team-wrap .garcez {
+   background-position: 0% 20%;
+}
+
+.team-wrap .garcez:hover {
+   background-position: 11.1111% 20%;
+}
+
+.team-wrap .ana_gomes {
+   background-position: 22.2222% 0%;
+}
+
+.team-wrap .ana_gomes:hover {
+   background-position: 33.3333% 0%;
+}
+
+.team-wrap .diogo {
+   background-position: 44.4444% 20%;
+}
+
+.team-wrap .diogo:hover {
+   background-position: 55.5555% 20%;
+}
+
+.team-wrap .ana_santos {
+   background-position: 44.4444% 0%;
+}
+
+.team-wrap .ana_santos:hover {
+   background-position: 55.5555% 0%;
+}
+
+.team-wrap .andre_b {
+   background-position: 66.6666% 0%;
+}
+
+.team-wrap .andre_b:hover {
+   background-position: 77.7777% 0%;
+}
+
+.team-wrap .andre_f {
+   background-position: 88.8888% 0%;
+}
+
+.team-wrap .andre_f:hover {
+   background-position: 99.9999% 0%;
+}
+
+.team-wrap .barbara {
+   background-position: 22.2222% 20%;
+}
+
+.team-wrap .barbara:hover {
+   background-position: 33.3333% 20%;
+}
+
+.team-wrap .fernando {
+   background-position: 66.6666% 20%;
+}
+
+.team-wrap .fernando:hover {
+   background-position: 77.7777% 20%;
+}
+
+.team-wrap .fred {
+   background-position: 88.8888% 20%;
+}
+
+.team-wrap .fred:hover {
+   background-position: 99.9999% 20%;
+}
+
+.team-wrap .henrique {
+   background-position: 0% 40%;
+}
+
+.team-wrap .henrique:hover {
+   background-position: 11.1111% 40%;
+}
+
+.team-wrap .joao {
+   background-position: 22.2222% 40%;
+}
+
+.team-wrap .joao:hover {
+   background-position: 33.3333% 40%;
+}
+
+.team-wrap .jorge {
+   background-position: 44.4444% 40%;
+}
+
+.team-wrap .jorge:hover {
+   background-position: 55.5555% 40%;
+}
+
+.team-wrap .maarit {
+   background-position: 66.6666% 40%;
+}
+
+.team-wrap .maarit:hover {
+   background-position: 77.7777% 40%;
+}
+
+.team-wrap .manuel {
+   background-position: 88.8888% 40%;
+}
+
+.team-wrap .manuel:hover {
+   background-position: 99.9999% 40%;
+}
+
+.team-wrap .maria_j {
+   background-position: 0% 60%;
+}
+
+.team-wrap .maria_j:hover {
+   background-position: 11.1111% 60%;
+}
+
+.team-wrap .maria_m {
+   background-position: 22.2222% 60%;
+}
+
+.team-wrap .maria_m:hover {
+   background-position: 33.3333% 60%;
+}
+
+.team-wrap .mario {
+   background-position: 44.4444% 60%;
+}
+
+.team-wrap .mario:hover {
+   background-position: 55.5555% 60%;
+}
+
+.team-wrap .marisa {
+   background-position: 66.6666% 60%;
+}
+
+.team-wrap .marisa:hover {
+   background-position: 77.7777% 60%;
+}
+
+.team-wrap .miguel {
+   background-position: 88.8888% 60%;
+}
+
+.team-wrap .miguel:hover {
+   background-position: 99.9999% 60%;
+}
+
+.team-wrap .nuno_g {
+   background-position: 0% 80%;
+}
+
+.team-wrap .nuno_g:hover {
+   background-position: 11.1111% 80%;
+}
+
+.team-wrap .nuno_m {
+   background-position: 22.2222% 80%;
+}
+
+.team-wrap .nuno_m:hover {
+   background-position: 33.3333% 80%;
+}
+
+.team-wrap .ricardo {
+   background-position: 44.4444% 80%;
+}
+
+.team-wrap .ricardo:hover {
+   background-position: 55.5555% 80%;
+}
+
+.team-wrap .rui {
+   background-position: 66.6666% 80%;
+}
+
+.team-wrap .rui:hover {
+   background-position: 77.7777% 80%;
+}
+
+.team-wrap .ricardo_t {
+   background-position: 88.8888% 80%;
+}
+
+.team-wrap .ricardo_t:hover {
+   background-position: 99.9999% 80%;
+}
+
+.team-wrap .maranhao {
+   background-position: 0% 100%;
+}
+
+.team-wrap .maranhao:hover {
+   background-position: 11.1111% 100%;
+}
+
+.team-wrap .teresa {
+   background-position: 22.2222% 100%;
+}
+
+.team-wrap .teresa:hover {
+   background-position: 33.3333% 100%;
+}
+
+.team-wrap .vitor {
+   background-position: 44.4444% 100%;
+}
+
+.team-wrap .vitor:hover {
+   background-position: 55.5555% 100%;
+}
+
 
 /* process */
 #about .process-wrap h4 {
@@ -544,7 +817,6 @@ ul#nav li.active a { color: #1D6289; }
 /* Team Members */
 #about .team-wrap h5 {
    font: 14px/24px montserrat-bold, sans-serif;
-   padding-top: 5px;
 }
 #about .team-wrap span {
    position: relative;
@@ -564,11 +836,10 @@ ul#nav li.active a { color: #1D6289; }
 }
 #about .team-wrap .member-social li {
    display: inline-block;
-   margin-right: 5px;
-   margin-left: 5px;
+   margin-right: 15px;
 }
 #about .team-wrap .member-social li a { color: #f5f5f5; }
-#about .team-wrap .member-social li a:hover { color: #EE7800; }
+#about .team-wrap .member-social li a:hover { color: #1D6289; }
 
 
 /* Testimonials
@@ -607,7 +878,6 @@ ul#nav li.active a { color: #1D6289; }
 }
 .testimonials .client-cite {
    font: 18px/36px opensans-light, sans-serif;
-   text-align: justify;
 }
 
 /* ================================================================== */
@@ -1502,6 +1772,7 @@ footer .social-links li:first-child { margin-left: 0; }
       margin-left: 0;
       text-align: center;
    }
+
    /* Blog-Entries
    ------------------------------------------------------------------ */
    #bottom-block .blog-categories {
@@ -1548,460 +1819,50 @@ footer .social-links li:first-child { margin-left: 0; }
 
 }
 
+.image_project {
+   display: inline-block;
+   zoom: 1;
+   vertical-align: middle;
+   width: 125px;
+   height: 125px;
+   border-radius: 50%;
+   background-repeat: no-repeat;
+   background-size: auto 200%;
+   border: 1px solid #e9e9e9;
+}
 
-/* TEAM */
-   .adriana{
-      width: 173px;height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -15px -10px;
-      margin: 0 auto;
-   }
-   .adriana:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -215px -10px;
-      margin: 0 auto;
-   }
-   .ana-g{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -415px -10px;
-      margin: 0 auto;
-   }
-   .ana-g:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -615px -10px;
-      margin: 0 auto;
-   }
-   .ana-s{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -815px -10px;
-      margin: 0 auto;
-   }
-   .ana-s:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1015px -10px;
-      margin: 0 auto;
-   }
-   .andre-b{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1215px -10px;
-      margin: 0 auto;
-   }
-   .andre-b:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1415px -10px;
-      margin: 0 auto;
-   }
-   .andre-f{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1615px -10px;
-      margin: 0 auto;
-   }
-   .andre-f:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1815px -10px;
-      margin: 0 auto;
-   }
-   .antonio{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -15px -210px;
-      margin: 0 auto;
-   }
-   .antonio:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -215px -210px;
-      margin: 0 auto;
-   }
-   .barbara{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -415px -210px;
-      margin: 0 auto;
-   }
-   .barbara:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -615px -210px;
-      margin: 0 auto;
-   }
-   .diogo{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -815px -210px;
-      margin: 0 auto;
-   }
-   .diogo:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1015px -210px;
-      margin: 0 auto;
-   }
-   .fernando{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1215px -210px;
-      margin: 0 auto;
-   }
-   .fernando:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1415px -210px;
-      margin: 0 auto;
-   }
-   .fred{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1615px -210px;
-      margin: 0 auto;
-   }
-   .fred:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1815px -210px;
-      margin: 0 auto;
-   }
-   .henrique{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -15px -410px;
-      margin: 0 auto;
-   }
-   .henrique:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -215px -410px;
-      margin: 0 auto;
-   }
-   .joao{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -415px -410px;
-      margin: 0 auto;
-   }
-   .joao:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -615px -410px;
-      margin: 0 auto;
-   }
-   .jorge{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -815px -410px;
-      margin: 0 auto;
-   }
-   .jorge:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1015px -410px;
-      margin: 0 auto;
-   }
-   .maarit{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1215px -410px;
-      margin: 0 auto;
-   }
-   .maarit:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1415px -410px;
-      margin: 0 auto;
-   }
-   .manel{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1615px -410px;
-      margin: 0 auto;
-   }
-   .manel:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1815px -410px;
-      margin: 0 auto;
-   }
-   .maria-j{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -15px -610px;
-      margin: 0 auto;
-   }
-   .maria-j:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -215px -610px;
-      margin: 0 auto;
-   }
-   .maria-m{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -415px -610px;
-      margin: 0 auto;
-   }
-   .maria-m:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -615px -610px;
-      margin: 0 auto;
-   }
-   .mario{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -815px -610px;
-      margin: 0 auto;
-   }
-   .mario:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1015px -610px;
-      margin: 0 auto;
-   }
-   .marisa{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1215px -610px;
-      margin: 0 auto;
-   }
-   .marisa:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1415px -610px;
-      margin: 0 auto;
-   }
-   .miguel{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1615px -610px;
-      margin: 0 auto;
-   }
-   .miguel:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1815px -610px;
-      margin: 0 auto;
-   }
-   .nuno-g{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -15px -810px;
-      margin: 0 auto;
-   }
-   .nuno-g:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -215px -810px;
-      margin: 0 auto;
-   }
-   .nuno-m{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -415px -810px;
-      margin: 0 auto;
-   }
-   .nuno-m:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -615px -810px;
-      margin: 0 auto;
-   }
-   .pedro{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -815px -810px;
-      margin: 0 auto;
-   }
-   .pedro:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1015px -810px;
-      margin: 0 auto;
-   }
-   .ricardo-a{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1215px -810px;
-      margin: 0 auto;
-   }
-   .ricardo-a:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1415px -810px;
-      margin: 0 auto;
-   }
-   .ricardo-t{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1615px -810px;
-      margin: 0 auto;
-   }
-   .ricardo-t:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1815px -810px;
-      margin: 0 auto;
-   }
-   .rui{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -15px -1010px;
-      margin: 0 auto;
-   }
-   .rui:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -215px -1010px;
-      margin: 0 auto;
-   }
-   .teresa{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -415px -1010px;
-      margin: 0 auto;
-   }
-   .teresa:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -615px -1010px;
-      margin: 0 auto;
-   }
-   .vitor{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -815px -1010px;
-      margin: 0 auto;
-   }
-   .vitor:hover{
-      width: 173px;
-      height: 173px;
-      border-radius: 50%;
-      background: url(../images/foto_sprite.png) -1015px -1010px;
-      margin: 0 auto;
-   }
-
-   /* PROJECTS*/
-
-   .bulla{
-      width: 125px;
-      height: 125px;
-      border-radius: 50%;
-      background: url(../images/icones_sprite.png) 0px 0px;
+  .bulla{
+      background: url(../images/icones_sprite.png) 0% 0%;
       margin: 0 auto;
    }
    .bulla:hover{
-      width: 125px;
-      height: 125px;
-      border-radius: 50%;
-      background: url(../images/icones_sprite.png) -125px 0px;
+      background: url(../images/icones_sprite.png) 33.3333% 0;
       margin: 0 auto;
    }
    .health{
-      width: 125px;
-      height: 125px;
-      border-radius: 50%;
-      background: url(../images/icones_sprite.png) -250px 0px;
+      background: url(../images/icones_sprite.png) 66.6666% 0;
       margin: 0 auto;
    }
    .health:hover{
-      width: 125px;
-      height: 125px;
-      border-radius: 50%;
-      background: url(../images/icones_sprite.png) -375px 0px;
+      background: url(../images/icones_sprite.png) 99.9999% 0;
       margin: 0 auto;
    }
    .soaresreis{
-      width: 125px;
-      height: 125px;
-      border-radius: 50%;
-      background: url(../images/icones_sprite.png) 0px -125px;
+      background: url(../images/icones_sprite.png) 0 100%;
       margin: 0 auto;
    }
    .soaresreis:hover{
-      width: 125px;
-      height: 125px;
-      border-radius: 50%;
-      background: url(../images/icones_sprite.png) -125px -125px;
+      background: url(../images/icones_sprite.png) 33.3333% 100%;
       margin: 0 auto;
    }
    .xrquest{
-      width: 125px;
-      height: 125px;
-      border-radius: 50%;
-      background: url(../images/icones_sprite.png) -250px -125px;
+      background: url(../images/icones_sprite.png) 66.6666% 100%;
       margin: 0 auto;
    }
    .xrquest:hover{
-      width: 125px;
-      height: 125px;
-      border-radius: 50%;
-      background: url(../images/icones_sprite.png) -375px -125px;
+      background: url(../images/icones_sprite.png) 99.9999% 100%;
       margin: 0 auto;
    }
 
-   section .row .col .name_proj h2
-   {
-      margin-left: -2%;
-   }
+
+
