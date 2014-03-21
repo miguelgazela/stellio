@@ -844,7 +844,10 @@ ul#nav li.active a { color: #1D6289; }
 
 /* Testimonials
 /* ------------------------------------------------------------------ */
-.testimonials { margin-top: 30px }
+.testimonials { 
+   margin-top: 30px;
+   padding-bottom: 50px;
+}
 
 .testimonials .client-author {
    position: relative;
