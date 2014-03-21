@@ -758,3 +758,8 @@ col.collapsed { padding: 0; }
 {
    max-width: 70%;
 }
+
+html
+{
+   font-family: Arial, Helvetica, sans-serif;
+}

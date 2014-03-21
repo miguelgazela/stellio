@@ -29,9 +29,9 @@
 
 /* ================================================================== */
 
-.section-head h2 { font: 30px/42px montserrat-bold, sans-serif; }
-.desc { font: 14px/24px opensans-regular, sans-serif; }
-.intro { font: 20px/36px opensans-light, sans-serif; }
+.section-head h2 { font: 30px/42px Arial, sans-serif; }
+.desc { font: 14px/24px Arial, sans-serif; }
+.intro { font: 20px/36px Arial, sans-serif; }
 
 /* Left clearing for flexible columns - columns that changes width in
 different screen sizes. Makes columns with different heights align
@@ -128,7 +128,7 @@ header .logo a {
 /* nav-wrap */
 #nav-wrap {
 	position: relative;
-   font: 13px opensans-regular, sans-serif;
+   font: 13px Arial, sans-serif;
    float: right;
 }
 
@@ -203,7 +203,7 @@ ul#nav li.active a { color: #EE7800; }
    margin: 156px auto 66px auto;
 }
 .slider-text h2 {
-   font: 56px/78px montserrat-regular, Sans-serif;
+   font: 56px/78px Arial, sans-serif;
    color: #fff;
    text-shadow: 0px 1px 5px rgba(50, 50, 50, .5);
    padding: 0;
@@ -213,7 +213,7 @@ ul#nav li.active a { color: #EE7800; }
 .slider-text a { color: #1D6289; }
 
 .slider-text p {
-   font: 17px/36px opensans-light, sans-serif;
+   font: 17px/36px Arial, sans-serif;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .3);
    padding: 0;
    margin: 18px 10% 0;
@@ -295,7 +295,7 @@ ul#nav li.active a { color: #EE7800; }
    margin-bottom: 30px;
 }
 .services-wrapper h2 {
-   font: 16px/24px montserrat-bold, sans-serif;
+   font: 16px/24px Arial, sans-serif;
    letter-spacing: 1.5px;
    text-transform: uppercase;
    color: #C4C4C4;
@@ -552,14 +552,14 @@ ul#nav li.active a { color: #EE7800; }
 /* Team Members */
 #about .team-wrap h5 {
    font: 14px/24px montserrat-bold, sans-serif;
-   padding-top: 5px;
+   padding-top: 20px;
 }
 #about .team-wrap span {
    position: relative;
    top: -6px;
    font-size: 13px;
    line-height: 18px;
-   color: #EE7800;
+   color: white;
 }
 #about .team-wrap .member-social {
    font-size: 14px;
@@ -1303,22 +1303,23 @@ footer .social-links li:first-child { margin-left: 0; }
       display: block;
       width: 100%;
       height: 100%;
-      text-align: left;
    }
-   .mobile #nav-wrap ul#nav > li.active a {
-      color: #1D6289 !important;
-      background: none;
+   .mobile #nav-wrap ul#nav > li.active a 
+   {
+      color: #EE7800 !important;
+      border-bottom-style: solid;
+      border-bottom-width: 3px;
+      border-color: #EE7800;
    }
 
    /* display menu panels */
 	.mobile #nav-wrap:target > ul#nav	{
 	   display: block;
-      padding: 12px 25px 24px 25px;
-      background: #4c4e5a;
+      padding: 12px 25px 12px 25px;
+      background: rgba(75, 78, 90, 0.90);
       margin: 0;
       clear: both;
    }
-   .mobile #nav-wrap ul#nav li { border-bottom: 1px dotted #595B6A; }
    .mobile #nav-wrap ul#nav li a {
       margin: 0;
       padding: 0;
@@ -1326,6 +1327,8 @@ footer .social-links li:first-child { margin-left: 0; }
       margin: 10px 0;
       line-height: 14px;
       border: none;
+      padding-bottom: 10%;
+      text-align: center;
    }
 
     /* intro section
@@ -2019,6 +2022,7 @@ footer .social-links li:first-child { margin-left: 0; }
    .projects p
    {
       color: white;
+      text-align: justify;
    }
 
    .projects h2
