@@ -29,9 +29,9 @@
 
 /* ================================================================== */
 
-.section-head h2 { font: 30px/42px Arial, sans-serif; }
-.desc { font: 14px/24px Arial, sans-serif; }
-.intro { font: 20px/36px Arial, sans-serif; }
+.section-head h2 { font: 30px/42px Helvetica, sans-serif; }
+.desc { font: 14px/24px Helvetica, sans-serif; }
+.intro { font: 20px/36px Helvetica, sans-serif; }
 
 /* Left clearing for flexible columns - columns that changes width in
 different screen sizes. Makes columns with different heights align
@@ -128,7 +128,7 @@ header .logo a {
 /* nav-wrap */
 #nav-wrap {
 	position: relative;
-   font: 13px Arial, sans-serif;
+   font: 13px Helvetica, sans-serif;
    float: right;
 }
 
@@ -203,7 +203,7 @@ ul#nav li.active a { color: #EE7800; }
    margin: 156px auto 66px auto;
 }
 .slider-text h2 {
-   font: 56px/78px Arial, sans-serif;
+   font: 56px/78px Helvetica, sans-serif;
    color: #fff;
    text-shadow: 0px 1px 5px rgba(50, 50, 50, .5);
    padding: 0;
@@ -213,7 +213,7 @@ ul#nav li.active a { color: #EE7800; }
 .slider-text a { color: #1D6289; }
 
 .slider-text p {
-   font: 17px/36px Arial, sans-serif;
+   font: 17px/36px Helvetica, sans-serif;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .3);
    padding: 0;
    margin: 18px 10% 0;
@@ -295,7 +295,7 @@ ul#nav li.active a { color: #EE7800; }
    margin-bottom: 30px;
 }
 .services-wrapper h2 {
-   font: 16px/24px Arial, sans-serif;
+   font: 16px/24px Helvetica, sans-serif;
    letter-spacing: 1.5px;
    text-transform: uppercase;
    color: #C4C4C4;
@@ -347,7 +347,7 @@ ul#nav li.active a { color: #EE7800; }
 .portfolio-item .item-wrap a { display: block; }
 .portfolio-item .portfolio-item-meta { padding: 12px 0; }
 .portfolio-item .portfolio-item-meta h5 a {
-   font: 13px/24px montserrat-bold, sans-serif;
+   font: 13px/24px Helvetica, sans-serif;
    color: #1D6289;
    margin-left: 7%;
 }
@@ -388,17 +388,17 @@ ul#nav li.active a { color: #EE7800; }
 }
 .reveal-modal .description-box { padding: 18px 36px; }
 .reveal-modal .description-box h4 {
-   font: 15px/24px montserrat-bold, sans-serif;
+   font: 15px/24px Helvetica, sans-serif;
 	margin-bottom: 18px;
    color: #111;
 }
 .reveal-modal .description-box p {
-	font: 13px/24px opensans-regular, sans-serif;
+	font: 13px/24px Helvetica, sans-serif;
    color: #A1A1A1;
    margin-bottom: 18px;
 }
 .reveal-modal .description-box .categories {
-   font: 11px/24px opensans-regular, sans-serif;
+   font: 11px/24px Helvetica, sans-serif;
    color: #A1A1A1;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -414,7 +414,7 @@ ul#nav li.active a { color: #EE7800; }
 }
 .reveal-modal .link-box a {
    color: #fff;
-	font: 11px/24px opensans-regular, sans-serif;
+	font: 11px/24px Helvetica, sans-serif;
 	text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
@@ -462,7 +462,7 @@ ul#nav li.active a { color: #EE7800; }
    margin-bottom: 6px;
 }
 #journal .entry-header .entry-title { padding-left: 38px; }
-#journal .entry-header h3 { font: 30px/42px montserrat-regular, sans-serif; }
+#journal .entry-header h3 { font: 30px/42px Helvetica, sans-serif; }
 #journal .entry-header .author-image img {
    position: absolute;
    top: 12px;
@@ -480,7 +480,7 @@ ul#nav li.active a { color: #EE7800; }
 
 /* post meta */
 #journal .entry .post-meta   {
-   font: 14px/24px opensans-regular, sans-serif;
+   font: 14px/24px Helvetica, sans-serif;
    color: #fff;
    margin-top: 12px;
    margin-bottom: 0;
@@ -490,7 +490,7 @@ ul#nav li.active a { color: #EE7800; }
    display: block;
 }
 #journal .entry .post-meta time {
-   font-family: montserrat-bold, sans-serif;
+   font-family: Helvetica, sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -498,10 +498,10 @@ ul#nav li.active a { color: #EE7800; }
 /* post content */
 #journal .entry .post-content { padding-left: 38px; }
 #journal .entry .post-content p {
-   font: 16px/30px opensans-regular, sans-serif;
+   font: 16px/30px Helvetica, sans-serif;
 }
 #journal .entry .post-content a.more-link {
-   font: 15px/30px opensans-bold, sans-serif;
+   font: 15px/30px Helvetica, sans-serif;
    margin-left: 3px;
 }
 #journal .entry .post-content a.more-link i {
@@ -516,7 +516,8 @@ ul#nav li.active a { color: #EE7800; }
 /* ================================================================== */
 
 #home {
-   background-color: #006699;
+   background: url(../images/fundo_home02.jpg) no-repeat center;
+   background-size: 100% 100%;
    padding-top: 156px;
    color: white;
    position: relative;
@@ -554,7 +555,7 @@ ul#nav li.active a { color: #EE7800; }
 #about .section-head p.desc { color: #999999; }
 #about .section-head .intro { color: #A3A3A3; }
 #about h3 {
-   font: 24px/30px montserrat-regular, sans-serif;
+   font: 24px/30px Helvetica, sans-serif;
    margin-top: 24px;
    margin-bottom: 24px;
    color: #6E6E6E;
@@ -571,14 +572,14 @@ ul#nav li.active a { color: #EE7800; }
 
 /* process */
 #about .process-wrap h4 {
-   font: 15px/24px montserrat-bold, sans-serif;
+   font: 15px/24px Helvetica, sans-serif;
    letter-spacing: 1px;
    text-transform: uppercase;
 }
 
 /* Team Members */
 #about .team-wrap h5 {
-   font: 14px/24px montserrat-bold, sans-serif;
+   font: 14px/24px Helvetica, sans-serif;
    padding-top: 20px;
 }
 #about .team-wrap span {
@@ -623,7 +624,7 @@ ul#nav li.active a { color: #EE7800; }
 	border-radius: 100% 100% 100% 100%;
 }
 .testimonials .client-author .name {
-   font: 14px/24px montserrat-bold, sans-serif;
+   font: 14px/24px Helvetica, sans-serif;
    color: white;
 
    position: absolute;
@@ -631,14 +632,14 @@ ul#nav li.active a { color: #EE7800; }
    left: 80px;
 }
 .testimonials .client-author span {
-   font-family: opensans-regular, sans-serif;
+   font-family: Helvetica, sans-serif;
    line-height: 18px;
    font-size: 13px;
    color: #EE7800;
    display: block;
 }
 .testimonials .client-cite {
-   font: 18px/36px opensans-light, sans-serif;
+   font: 18px/36px Helvetica, sans-serif;
    text-align: justify;
 }
 
@@ -649,7 +650,7 @@ ul#nav li.active a { color: #EE7800; }
 /* ================================================================== */
 
 #contact {
-   background-color: #25292D;
+   background-color: white;
    padding-top: 108px;
    padding-bottom: 120px;
    color: #707B89;
@@ -668,9 +669,9 @@ ul#nav li.active a { color: #EE7800; }
 #contact form { margin-bottom: 30px; }
 
 #contact label {
-   font: 15px/24px opensans-semibold, sans-serif;
+   font: 15px/24px Helvetica, sans-serif;
    margin: 12px 0;
-   color: #fff;
+   color:   #1D6289;
 	display: inline-block;
 	float: left;
    width: 22%;
@@ -680,7 +681,7 @@ ul#nav li.active a { color: #EE7800; }
 #contact select {
    padding: 18px 20px;
 	color: #eee;
-	background: #3F464B;
+	background: #006699;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -692,10 +693,10 @@ ul#nav li.active a { color: #EE7800; }
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #1D6289;
+	background-color: #3F464B;
 }
 #contact button.submit {
-	font: 18px/30px montserrat-bold, sans-serif;
+	font: 18px/30px Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
@@ -714,8 +715,8 @@ ul#nav li.active a { color: #EE7800; }
    margin-left: 22%;
 }
 #contact button.submit:hover {
-	color: #25292D;
-	background: #fff;
+	color: #fff;
+	background: #EE7800;
 }
 #contact span.required {
 	color: #1D6289;
@@ -746,7 +747,7 @@ ul#nav li.active a { color: #EE7800; }
 
 /* contact sidebar */
 #contact aside h3 {
-   font: 21px/30px montserrat-bold, sans-serif;
+   font: 21px/30px Helvetica, sans-serif;
    margin-bottom: 18px;
    color: #1D6289;
 }
@@ -768,7 +769,7 @@ ul#nav li.active a { color: #EE7800; }
    width: 100%;
 }
 .post .entry-header h1 {
-   font: 45px/60px montserrat-regular, sans-serif;
+   font: 45px/60px Helvetica, sans-serif;
    color: #313131;
    width: 83.33333%;
    padding-right: 12%;
@@ -780,7 +781,7 @@ ul#nav li.active a { color: #EE7800; }
    width: 16.66667%;
    color: #bec0c1;
    padding-right: 36px;
-   font: 14px/24px opensans-regular, sans-serif;
+   font: 14px/24px Helvetica, sans-serif;
    margin: 6px 0 6px 0;
 }
 .post .post-meta a,
@@ -795,7 +796,7 @@ ul#nav li.active a { color: #EE7800; }
 .post .post-meta .date:before,
 .post .post-meta .categories:before {
    display: block;
-   font: 14px/24px opensans-bold, sans-serif;
+   font: 14px/24px Helvetica, sans-serif;
    color: #313131;
    text-align: right;
 }
@@ -822,9 +823,9 @@ ul#nav li.active a { color: #EE7800; }
 /* tags */
 .post .post-content .tags {
   margin-top: 18px;
-  font-family: opensans-light, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
-.post .post-content .tags a { font-family: opensans-bold, sans-serif; }
+.post .post-content .tags a { font-family: Helvetica, sans-serif; }
 
 /* bio */
 .post .bio {
@@ -851,7 +852,7 @@ ul#nav li.active a { color: #EE7800; }
    float: right;
 }
 .post .bio .about h5 {
-   font: 16px/30px opensans-bold, sans-serif;
+   font: 16px/30px Helvetica, sans-serif;
    margin-bottom: 6px;
 }
 
@@ -860,7 +861,7 @@ ul#nav li.active a { color: #EE7800; }
    margin: 24px 0;
    padding: 30px 0 0 0;
    border-top: 1px solid #E0E0E0;
-   font: 16px/30px opensans-light, sans-serif;
+   font: 16px/30px Helvetica, sans-serif;
 }
 .post .post-nav li {
    display: inline-block;
@@ -872,7 +873,7 @@ ul#nav li.active a { color: #EE7800; }
 .post .post-nav li a { color: #a3a3a3; }
 .post .post-nav li a:hover { color: #333; }
 .post .post-nav li strong {
-   font: 15px/30px opensans-bold, sans-serif;
+   font: 15px/30px Helvetica, sans-serif;
    text-transform: uppercase;
    color: #1D6289;
    letter-spacing: 1px;
@@ -896,7 +897,7 @@ ul#nav li.active a { color: #EE7800; }
    border-top: 1px solid #E0E3E6;
 }
 #comments h3 {
-   font: 20px/30px opensans-bold, sans-serif;
+   font: 20px/30px Helvetica, sans-serif;
    margin-bottom: 6px;
    margin-left: 16.66667%;
    color: #313131;
@@ -936,7 +937,7 @@ ol.commentlist {
 	border-radius: 100% 100% 100% 100%;
 }
 .commentlist li .comment-info cite {
-   font: 15px/30px opensans-bold, sans-serif;
+   font: 15px/30px Helvetica, sans-serif;
    color: #454545;
 }
 .commentlist li .comment-info .comment-meta {
@@ -945,7 +946,7 @@ ol.commentlist {
    display: block;
 }
 .commentlist li .comment-info .comment-meta .reply {
-   font-family: opensans-semibold, sans-serif;
+   font-family: Helvetica, sans-serif;
 }
 .commentlist li .comment-info .comment-meta .sep {
    margin: 0 5px;
@@ -976,7 +977,7 @@ ol.commentlist {
    margin-left: 16.66667%;
 }
 #comments form label {
-   font: 14px/24px opensans-bold, sans-serif;
+   font: 14px/24px Helvetica, sans-serif;
 	margin: 12px 0;
    color: #3d4145;
 }
@@ -1000,7 +1001,7 @@ ol.commentlist {
 	background-color: #3d4145;
 }
 #comments form button.submit {
-	font: 18px/30px montserrat-bold, sans-serif;
+	font: 18px/30px Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
@@ -1033,7 +1034,7 @@ ol.commentlist {
 .bottom-nav {
     margin: 0;
     padding: 12px 0;
-    font: 14px/36px opensans-bold, sans-serif;
+    font: 14px/36px Helvetica, sans-serif;
  }
 .bottom-nav li {
     display: inline-block;
@@ -1044,7 +1045,7 @@ ol.commentlist {
 .bottom-nav li i { margin-left: 5px; }
 .bottom-nav li a:hover { color: #3d4145; }
 .bottom-nav .sep {
-   font: 16px/36px opensans-light, sans-serif;
+   font: 16px/36px Helvetica, sans-serif;
    margin: 0 6px;
    color: #C0C7CE;
 }
@@ -1071,12 +1072,12 @@ ol.commentlist {
 #blog-entries .post .entry-header h1 a:focus { color: #1D6289; }
 
 #blog-entries .post .post-content p {
-  font: 20px/36px opensans-light, sans-serif;
+  font: 20px/36px Helvetica, sans-serif;
 }
 
 /* more link */
 #blog-entries .post-content a.more-link {
-   font: 14px/30px opensans-bold, sans-serif;
+   font: 14px/30px Helvetica, sans-serif;
    margin-top: 18px;
    padding: 6px 18px;
    background: #838A91;
@@ -1113,7 +1114,7 @@ ol.commentlist {
    border-top: 1px solid #E0E0E0;
 }
 #bottom-block .blog-categories {
-   font: 13px/30px opensans-semibold, sans-serif;
+   font: 13px/30px Helvetica, sans-serif;
    margin: 0;
    padding: 0;
 }
@@ -1128,7 +1129,7 @@ ol.commentlist {
 #bottom-block .back-to-top { text-align: right; }
 #bottom-block .back-to-top a i { margin-left: 6px; }
 #bottom-block .back-to-top a {
-   font: 14px/30px opensans-bold, sans-serif;
+   font: 14px/30px Helvetica, sans-serif;
    color: #1D6289;
 }
 
@@ -1209,7 +1210,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
    /* intro section
    -------------------------------------------------------------------- */
-   .slider-text h2 { font: 48px/66px montserrat-regular, Sans-serif; }
+   .slider-text h2 { font: 48px/66px Helvetica, sans-serif; }
 
    /* services section
    -------------------------------------------------------------------- */
@@ -1361,9 +1362,9 @@ footer .social-links li:first-child { margin-left: 0; }
     /* intro section
    -------------------------------------------------------------------- */
    .slider-text { margin-top: 120px; margin-bottom: 48px; }
-   .slider-text h2 { font: 43px/54px montserrat-regular, sans-serif; }
+   .slider-text h2 { font: 43px/54px Helvetica, sans-serif; }
    .slider-text p {
-      font: 14px/30px opensans-regular, sans-serif;
+      font: 14px/30px Helvetica, sans-serif;
       margin-top: 30px;
    }
    .slides {
@@ -1465,17 +1466,17 @@ footer .social-links li:first-child { margin-left: 0; }
    .post .post-meta .categories:before { content: none }
 
    .post .post-meta .date {
-      font: 13px/18px opensans-bold, sans-serif;
+      font: 13px/18px Helvetica, sans-serif;
       color: #3D4149;
    }
    .post .post-meta .categories {
-      font: 13px/18px opensans-regular, sans-serif;
+      font: 13px/18px Helvetica, sans-serif;
    }
    /* show sep */
    .post .post-meta .categories .sep {
       display: inline;
       margin-right: 5px;
-      font: 13px/18px opensans-light, sans-serif;
+      font: 13px/18px Helvetica, sans-serif;
    }
 
    /* bio */
@@ -1568,9 +1569,9 @@ footer .social-links li:first-child { margin-left: 0; }
    /* intro section
    ------------------------------------------------------------------------- */
    .slider-text { margin-top: 108px; margin-bottom: 36px; }
-   .slider-text h2 { font: 32px/42px montserrat-regular, sans-serif; }
+   .slider-text h2 { font: 32px/42px Helvetica, sans-serif; }
    .slider-text p {
-      font: 12px/24px opensans-regular, sans-serif;
+      font: 12px/24px Helvetica, sans-serif;
       margin-top: 24px;
    }
 
@@ -2050,9 +2051,15 @@ footer .social-links li:first-child { margin-left: 0; }
    {
       color: white;
       text-align: justify;
+      margin: 0 10% 0 2%;
    }
 
    .projects h2
    {
       color: #EE7800;
+   }
+
+   #services .intro p
+   {
+      font-size: 16px;
    }
