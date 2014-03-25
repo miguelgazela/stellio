@@ -1143,7 +1143,7 @@ ol.commentlist {
 footer {
    margin-top: 30px;
    margin-bottom: 30px;
-   color: #303030;
+   color: white;
    font-size: 14px;
 }
 footer a, footer a:visited { color: #0B686B; }
@@ -1189,6 +1189,8 @@ footer .social-links li {
     margin-left: 24px;
 }
 footer .social-links li:first-child { margin-left: 0; }
+
+/*#006699 --> azul*/
 
 /* ================================================================== */
 

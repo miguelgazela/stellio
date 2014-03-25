@@ -141,7 +141,7 @@ html, body {
 }
 
 body {
-   background: #151719 url(../images/bg.png);
+   background: #006699;
 	font: 15px/30px Helvetica, sans-serif;
 	color: #838C95;
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
