@@ -2063,3 +2063,13 @@ footer .social-links li:first-child { margin-left: 0; }
    {
       font-size: 16px;
    }
+
+   #list_stellio
+   {
+      display: block;
+      font-size: 16px;
+      font-weight: normal;
+      list-style: disc;
+      text-indent: 0%;
+      margin-left:7%;
+   }
