@@ -2087,15 +2087,47 @@ footer .social-links li:first-child { margin-left: 0; }
       height: 100%;
    }
 
-   .logo_stellio
-   {
-      width: 47px;
-      height: 50px; 
-      float: left;
-      margin-top: -7%;
-   }
-
    .col .logo img
    {
-      margin-left: 2%;
+      margin-left: 4%;
+   }
+
+   /*Aminacao de entrada*/
+   .logo_stellio {
+       width: 47px;
+      height: 50px; 
+      float: left;
+      margin-top: -6.5%;
+       background-image: url(../images/stellio_animation_hori.png);
+       
+       -webkit-animation: play 8s steps(304) infinite;
+          -moz-animation: play 8s steps(304) infinite;
+           -ms-animation: play 8s steps(304) infinite;
+            -o-animation: play 8s steps(304) infinite;
+               animation: play 8s steps(304) infinite;
+   }
+
+   @-webkit-keyframes play {
+      from { background-position:    0px; }
+        to { background-position: -14288px; }
+   }
+
+   @-moz-keyframes play {
+      from { background-position:    0px; }
+        to { background-position: -14288px; }
+   }
+
+   @-ms-keyframes play {
+      from { background-position:    0px; }
+        to { background-position: -14288px; }
+   }
+
+   @-o-keyframes play {
+      from { background-position:    0px; }
+        to { background-position: -14288px; }
+   }
+
+   @keyframes play {
+      from { background-position:    0px; }
+        to { background-position: -14288px; }
    }
