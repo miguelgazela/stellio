@@ -2098,36 +2098,36 @@ footer .social-links li:first-child { margin-left: 0; }
       height: 50px; 
       float: left;
       margin-top: -6.5%;
-       background-image: url(../images/stellio_animation_hori.png);
+       background-image: url(../images/stellio_espiral.png);
        
-       -webkit-animation: play 8s steps(304) infinite;
-          -moz-animation: play 8s steps(304) infinite;
-           -ms-animation: play 8s steps(304) infinite;
-            -o-animation: play 8s steps(304) infinite;
-               animation: play 8s steps(304) infinite;
+       -webkit-animation: play 8s steps(294) infinite;
+          -moz-animation: play 8s steps(294) infinite;
+           -ms-animation: play 8s steps(294) infinite;
+            -o-animation: play 8s steps(294) infinite;
+               animation: play 8s steps(294) infinite;
    }
 
    @-webkit-keyframes play {
       from { background-position:    0px; }
-        to { background-position: -14288px; }
+        to { background-position: -13818px; }
    }
 
    @-moz-keyframes play {
       from { background-position:    0px; }
-        to { background-position: -14288px; }
+        to { background-position: -13818px; }
    }
 
    @-ms-keyframes play {
       from { background-position:    0px; }
-        to { background-position: -14288px; }
+        to { background-position: -13818px; }
    }
 
    @-o-keyframes play {
       from { background-position:    0px; }
-        to { background-position: -14288px; }
+        to { background-position: -13818px; }
    }
 
    @keyframes play {
       from { background-position:    0px; }
-        to { background-position: -14288px; }
+        to { background-position: -13818px; }
    }
