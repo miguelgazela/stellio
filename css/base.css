@@ -665,11 +665,32 @@ col.collapsed { padding: 0; }
 .row .offset-11   { margin-left: 91.66667%; }
 
 
+.projects .row .team-wrap
+{
+   width: 90%;
+}
+
 /* smaller screens
 --------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
 
    /*.col { padding: 0 15px; } */
+
+   .projects .row .team-wrap p
+   {
+      text-align: center;
+      width: 100%;
+   }
+
+   .projects .row .team-wrap 
+   {
+      width: 95%;
+   }
+
+   #journal .col:not(:last-child)
+   {
+      margin-bottom: 5%;
+   }
 
 }
 
@@ -763,4 +784,6 @@ col.collapsed { padding: 0; }
 {
    max-width: 70%;
 }
+
+
 

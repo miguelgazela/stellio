@@ -2053,7 +2053,7 @@ footer .social-links li:first-child { margin-left: 0; }
    {
       color: white;
       text-align: left;
-      margin: 0 10% 0 2%;
+      margin: 0 10% 0 2.3%;
    }
 
    .projects h2
@@ -2069,16 +2069,6 @@ footer .social-links li:first-child { margin-left: 0; }
    #services .intro 
    {
       line-height: 26px;
-   }
-
-   #list_stellio
-   {
-      display: block;
-      font-size: 16px;
-      font-weight: normal;
-      list-style: disc;
-      text-indent: 0%;
-      margin-left:7%;
    }
 
    header .logo a
@@ -2130,4 +2120,46 @@ footer .social-links li:first-child { margin-left: 0; }
    @keyframes play {
       from { background-position:    0px; }
         to { background-position: -13818px; }
+   }
+
+   #services .intro p
+   {
+      margin-bottom: 2%;
+   }
+
+   #services .intro p:nth-child(2)
+   {
+      margin-bottom: 0.8%;
+   }
+
+   #list_stellio
+   {
+      display: block;
+      font-size: 16px;
+      font-weight: normal;
+      list-style: disc;
+      text-indent: 0%;
+      margin-left:7%;
+      margin-top: 0;
+      margin-bottom: 2%;
+   }
+
+   #list_stellio li
+   {
+      margin-bottom: 1.2%;
+   }
+
+   @media only screen and (max-width: 800px) {
+
+      #list_stellio
+      {
+         list-style-type: none;
+         text-align: center;
+         margin-left: 0%;
+      }
+
+      #list_stellio li
+      {
+         margin-bottom: 3%;
+      }
    }
